@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tovuz Turizm Agentliyi</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="travel_recommendation.css" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"
+                    ><img class="" src="./assets/travel_icon 128 x 140.png" alt="" />Tovuz Turizm Agentliyi</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto m-auto my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+                        <li class="nav-item">
+                            <a class="nav-link active home" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link about" href="#">About Us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link contact_link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success mx-2" type="submit">Search</button>
+                        <button class="btn btn-outline-success">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <main role="main" class="container-fluid d-flex">
+            <div class="social-sidebar d-flex flex-column mx-3 fixed-bottom">
+                <ul class="list-group">
+                    <li class="list-item">
+                        <a href="https://facebook.com" target="_blank" class="facebook"
+                            ><i class="fab fa-facebook-f"></i
+                        ></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://twitter.com" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://instagram.com" target="_blank" class="instagram"
+                            ><i class="fab fa-instagram"></i
+                        ></a>
+                    </li>
+                    <li class="list-item">
+                        <a href="https://linkedin.com" target="_blank" class="linkedin"
+                            ><i class="fab fa-linkedin-in"></i
+                        ></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mx-5 my-5 container-fluid">
+                <h1>Macəra Səni Gözləyir</h1>
+                <p>
+                    Azərbaycanın qərbində yerləşən Tovuz, həm təbiəti, həm də qədim tarixi ilə macərasevərlərin
+                    diqqətini cəlb edən unikal bir məkandır. Yaşıllıqlarla örtülü dağlar, saf bulaqlar, üzüm bağları və
+                    qonaqpərvər insanlarla dolu bu diyar, səyahət həvəskarları üçün əsl cənnətdir. Tarixlə maraqlananlar
+                    üçün Qədim Gədəbəy yolu, Yanıqlı nekropolu, və Alakol qalası kimi abidələr maraqlı olacaq. Təbii
+                    gözəlliklər axtaranlar isə Əsrik meşələrində gəzişə, Zəyəm çayının sahilində dincələ və ya kənd
+                    həyatını daha yaxından tanıya bilər. Tovuz həmçinin öz zəngin mətbəxi ilə də seçilir – yerli pendir,
+                    təzə meyvə-tərəvəz, və xüsusilə Tovuzun məşhur şərabları sənin zövqünü oxşayacaq.
+                </p>
+
+                <button class="btn btn-outline-info">İndi Sifariş Et</button>
+            </div>
+        </main>
+        <div class="search_result"></div>
+
+        <script src="./travel_recommendation.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://kit.fontawesome.com/9935e55ae2.js" crossorigin="anonymous"></script>
+    </body>
+</html>

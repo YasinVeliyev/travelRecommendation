@@ -1,0 +1,119 @@
+img {
+    width: 20%;
+    margin: 0;
+}
+
+a {
+    text-align: center;
+}
+
+body {
+    background-image: url("/assets/tovuz.jpg");
+    background-size: cover;
+    color: azure;
+}
+
+h1 {
+    color: antiquewhite;
+    font-size: 80px;
+}
+
+p {
+    color: azure;
+    width: 60%;
+    text-align: justify;
+    font-size: 24px;
+}
+.social-sidebar > ul {
+    font-size: 48px;
+    left: 20px;
+    bottom: 100px;
+    list-style: none;
+    margin: 10px;
+}
+.social-sidebar {
+    width: 50px;
+}
+
+.social-icons a:hover {
+    background-color: #555;
+}
+section {
+    width: 80%;
+}
+section p {
+    font-size: 16px;
+}
+.card-text {
+    width: 80%;
+}
+section .card-title,
+h2 {
+    color: azure;
+}
+
+form.contact {
+    background: transparent;
+    width: 50vw;
+    color: azure;
+    float: right;
+}
+form.contact > div {
+    width: 50vw;
+}
+
+input {
+    height: 50px;
+}
+
+input,
+textarea {
+    background: transparent;
+    border: solid rgba(240, 255, 255, 0.5) 0.5px;
+    outline: none;
+    border-radius: 10px;
+    color: azure;
+}
+
+::placeholder {
+    color: azure;
+}
+.contact > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.search_result {
+    position: fixed;
+    top: 100px;
+    right: 0;
+    height: 80%;
+    overflow-y: scroll;
+    width: 20vw;
+    padding: 5px;
+}
+
+.search_result > div {
+    width: 100%;
+    font-size: 14px;
+    border: solid 1px azure;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.search_result > div > img {
+    width: 100%;
+}
+
+.search_result > div > p {
+    width: 100%;
+    font-size: 16px;
+    text-align: left;
+}
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: azure;
+}
